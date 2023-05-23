@@ -2,7 +2,7 @@
 const createDB = require('./database/utils/createDB');
 const seedDB = require('./database/utils/seedDB');
 
-//import Sequelize instance
+//import Sequelize instance, squel base activated
 const db = require('./database');
 
 //sync and seed

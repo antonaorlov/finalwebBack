@@ -1,11 +1,11 @@
 const pgtools = require("pgtools");
 const { dbName, dbUser, dbPwd } = require("./configDB");
-
+//paswword is pigmeow1
 const config = {
   user: dbUser,
   host: "localhost",
   port: 5432,
-  password: dbPwd,
+  password: pigmeow1,
 };
 
 //attempt to create DB

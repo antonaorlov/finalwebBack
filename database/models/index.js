@@ -1,5 +1,5 @@
 // register models, set up associations between tables, and generate barrel file for the models;
-
+//fiex emplyee, tasks
 const Employee = require("./Employee");
 const Task = require("./Task");
 
