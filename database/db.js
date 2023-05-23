@@ -7,7 +7,7 @@ const { dbName, dbUser, dbPwd } = require("./utils/configDB");
 // Confirmation message (limit these in production);
 console.log("Opening database connection");
 
-// This is our entry point, we instantiate the Sequelize instance accordingly;
+// This is our entry point, we instantiate the Sequelize instance accordingly; databse activated
 const db = new Sequelize(dbName, dbUser, dbPwd, {
   host: "localhost",
   dialect: "postgres",
